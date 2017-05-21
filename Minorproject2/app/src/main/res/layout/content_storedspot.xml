@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="application.minor.storedspot"
+    tools:showIn="@layout/app_bar_storedspot"
+    android:background="#faf203">
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list"
+        android:longClickable="true"
+        android:clickable="true"
+        android:visibility="visible">
+
+    </ListView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:id="@+id/linlay">
+
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="#737679"
+        android:textSize="50sp"
+        android:text="No Spot"
+        android:id="@+id/norem"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="180dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="#737679"
+            android:textSize="50sp"
+            android:text="Reminder"
+
+            android:layout_marginLeft="60dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="#737679"
+            android:textSize="50sp"
+            android:text="To Display"
+            android:id="@+id/norem1"
+            android:layout_marginLeft="55dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

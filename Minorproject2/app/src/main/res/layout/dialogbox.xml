@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="160dp"
+    android:orientation="vertical"
+    android:background="#ff7400">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BeepMe"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:padding="5dp"
+        />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:background="#000000"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:text="Location Reminder"
+        android:padding="5dp"
+        android:id="@+id/locrem"
+        android:clickable="true"
+        android:onClick="locrem"
+        android:textSize="25sp"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#000000"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="25sp"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spotfinder"
+        android:text="Spot Reminder"
+        android:clickable="true"
+        android:onClick="spotfinder"/>
+
+</LinearLayout>

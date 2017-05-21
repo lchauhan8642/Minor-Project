@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#faf203"
+
+    tools:context="application.minor.Fragment1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skip"
+        android:id="@+id/skip1"
+        android:clickable="true"
+        android:onClick="onskip1"
+        android:textColor="#123"
+        android:textSize="30dp"
+        android:layout_marginLeft="290dp"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="BeepMe"
+    android:textSize="40dp"
+    android:textColor="#123"
+    android:textStyle="bold"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="130dp"
+    ></TextView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon"
+
+
+        android:layout_gravity="center"></ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Set reminders for different locations"
+        android:textSize="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="330dp"
+        android:textColor="#123"/>
+
+</FrameLayout>
